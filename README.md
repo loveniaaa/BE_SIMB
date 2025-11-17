@@ -1,4 +1,4 @@
-# 🏛️ BE_SIMB — Backend Sistem Informasi Manajemen Bantuan
+#  BE_SIMB — Backend Sistem Informasi Manajemen Bantuan
 
 BE_SIMB adalah backend service berbasis **Java Spring Boot** yang digunakan untuk mendukung Sistem Informasi Manajemen Bantuan (SIMB). Backend ini menangani proses autentikasi, manajemen data, validasi, penyimpanan database, dan penyediaan API untuk frontend FE_SIMB.
 
@@ -17,7 +17,7 @@ README ini dibuat **sangat lengkap** agar dapat digunakan sebagai dokumentasi re
 
 ---
 
-# 📌 1. Persyaratan Sistem
+# 1. Persyaratan Sistem
 
 Sebelum menjalankan BE_SIMB, pastikan anda telah menginstall:
 
@@ -31,12 +31,12 @@ Sebelum menjalankan BE_SIMB, pastikan anda telah menginstall:
 
 ---
 
-# ⚙️ 2. Instalasi Java (JDK)
+# 2. Instalasi Java (JDK)
 
 ## 2.1 Download JDK 17
 Unduh dari Adoptium:
 
-👉 https://adoptium.net/
+https://adoptium.net/
 
 Pilih:  
 ```
@@ -58,11 +58,11 @@ openjdk version "17.x.x"
 
 ---
 
-# 🗄️ 3. Instalasi PostgreSQL
+# 3. Instalasi PostgreSQL
 
 ## 3.1 Download PostgreSQL
 
-👉 [https://www.postgresql.org/download/](https://www.postgresql.org/download/)
+[https://www.postgresql.org/download/](https://www.postgresql.org/download/)
 
 Install PostgreSQL + pgAdmin.
 
@@ -80,7 +80,7 @@ psql --version
 
 ---
 
-# 🛢️ 4. Membuat Database SIMB
+# 4. Membuat Database SIMB
 
 ### 4.1 Buat database via pgAdmin
 
@@ -103,7 +103,7 @@ Cek database:
 \l
 ```
 
-# 🔧 6. Konfigurasi `application.properties`
+# 6. Konfigurasi `application.properties`
 
 Buka:
 
@@ -128,7 +128,7 @@ server.port=8080
 
 ---
 
-# ☁️ 7. Konfigurasi Environment Production
+# 7. Konfigurasi Environment Production
 
 File:
 
@@ -155,9 +155,9 @@ java -jar ScholarshipManagementSystemApplication.jar --spring.profiles.active=pr
 
 ---
 
-# 💡 8. Penjelasan Arsitektur Backend
+# 8. Penjelasan Arsitektur Backend
 
-### 🧱 Layering Architecture (Clean Architecture Style)
+### Layering Architecture (Clean Architecture Style)
 
 1. **Controller Layer**
 
@@ -183,7 +183,7 @@ java -jar ScholarshipManagementSystemApplication.jar --spring.profiles.active=pr
 
     * Menggunakan `@Valid` dan `@NotNull`, dll.
 
-### 🔒 Security (opsional bila pakai JWT)
+### Security (opsional bila pakai JWT)
 
 * JWT untuk autentikasi
 * Spring Security filter
@@ -191,7 +191,7 @@ java -jar ScholarshipManagementSystemApplication.jar --spring.profiles.active=pr
 
 ---
 
-# ▶️ 9. Cara Menjalankan Backend
+# 9. Cara Menjalankan Backend
 
 ## 9.1 Jalankan Menggunakan Maven
 
@@ -263,7 +263,7 @@ Menghapus user.
 
 ---
 
-# 🧪 11. Testing API
+# 11. Testing API
 
 Anda dapat menguji API menggunakan:
 
