@@ -286,7 +286,7 @@ Install dependency:
 Akses:
 
 ```
-http://localhost:9900/swagger-ui/index.html
+http://localhost:9900/sms-mgmt/swagger-ui/index.html
 ```
 
 ---
