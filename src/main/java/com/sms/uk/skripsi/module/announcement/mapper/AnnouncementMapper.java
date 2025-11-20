@@ -51,6 +51,7 @@ public class AnnouncementMapper {
                 .createdBy(announcement.getCreatedBy())
                 .updatedAt(DateTimeUtil.convertToDetailDateTime(announcement.getUpdatedAt()))
                 .updatedBy(announcement.getUpdatedBy())
+                .file(announcement.getFile())
                 .build();
     }
 }

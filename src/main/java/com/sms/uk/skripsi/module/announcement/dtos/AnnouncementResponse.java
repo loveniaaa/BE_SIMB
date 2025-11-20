@@ -31,4 +31,6 @@ public class AnnouncementResponse {
     private String updatedAt;
 
     private String updatedBy;
+
+    private String file;
 }
